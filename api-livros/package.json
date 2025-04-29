@@ -1,0 +1,22 @@
+{
+  "name": "api-livros",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "api-livros": "file:",
+    "express": "^4.21.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1",
+    "nodemon": "^3.1.9",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
